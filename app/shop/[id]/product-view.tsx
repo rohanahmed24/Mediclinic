@@ -5,24 +5,21 @@ import { motion } from 'framer-motion'
 import Image from 'next/image'
 import Link from 'next/link'
 import { ChevronRight, Minus, Plus, Star, StarHalf } from 'lucide-react'
-import { useParams } from 'next/navigation'
 import SiteHeader from "@/components/site-header"
 import SiteFooter from "@/components/site-footer"
 import { Button } from '@/components/ui/button'
-import { products } from '@/lib/data'
 import { useCart } from '@/hooks/use-cart'
 import { toast } from 'sonner'
 import { ProductCard } from '@/components/product-card'
 import { ProductReviews } from '@/components/product-reviews'
+import { products } from '@/lib/data'
+import type { Product } from '@/lib/types'
 
-export default function ProductPage() {
-  const params = useParams()
-  const [quantity, setQuantity] = useState(1)
+export function ProductView({ product }: { product: Product }) {
   const { addToCart } = useCart()
-  const product = products.find(p => p.id === params.id)
+  const [quantity, setQuantity] = useState(1)
 
   const handleAddToCart = () => {
-    if (!product) return
     for (let i = 0; i < quantity; i++) {
       addToCart(product)
     }
@@ -50,20 +47,27 @@ export default function ProductPage() {
     return stars
   }
 
-  if (!product) {
-    return (
-      <div className="min-h-screen flex flex-col items-center justify-center">
-        <p className="text-xl text-gray-700">Product not found</p>
-        <Link href="/shop" className="mt-4 text-blue-500 hover:underline">
-          Back to Shop
-        </Link>
-      </div>
-    )
-  }
-
   const relatedProducts = products
     .filter(p => p.category === product.category && p.id !== product.id)
     .slice(0, 3)
+
+  // Mock initial reviews
+  const initialReviews = [
+    {
+      id: '1',
+      userName: 'John Doe',
+      rating: 5,
+      comment: 'Great product! Highly recommended.',
+      date: '2023-06-01'
+    },
+    {
+      id: '2',
+      userName: 'Jane Smith',
+      rating: 4,
+      comment: 'Good quality, but a bit pricey.',
+      date: '2023-05-28'
+    }
+  ]
 
   return (
     <div className="min-h-screen flex flex-col">
@@ -172,7 +176,7 @@ export default function ProductPage() {
           </div>
 
           {/* Product Reviews Section */}
-          <ProductReviews productId={product.id} initialReviews={[]} />
+          <ProductReviews productId={product.id} initialReviews={initialReviews} />
 
           {/* Related Products Section */}
           <div className="mt-20">

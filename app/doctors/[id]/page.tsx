@@ -11,21 +11,7 @@ import SiteFooter from "@/components/site-footer"
 import { Button } from '@/components/ui/button'
 import { DoctorReviews } from '@/components/doctor-reviews'
 import { toast } from 'sonner'
-
-interface Doctor {
-  id: string
-  name: string
-  specialty: string
-  image: string
-  bio: string
-  education: string[]
-  experience: string[]
-  rating: number
-  reviewCount: number
-  location: string
-  phone: string
-  email: string
-}
+import { doctors, type Doctor } from '@/lib/doctors'
 
 export default function DoctorProfilePage() {
   const params = useParams()
@@ -36,13 +22,11 @@ export default function DoctorProfilePage() {
     const fetchDoctor = async () => {
       setIsLoading(true)
       try {
-        // In a real application, replace this with an actual API call
-        const response = await fetch(`/api/doctors/${params.id}`)
-        if (!response.ok) {
-          throw new Error('Failed to fetch doctor data')
+        const doctorData = doctors.find(d => d.id === params.id)
+        if (!doctorData) {
+          throw new Error('Doctor not found')
         }
-        const data = await response.json()
-        setDoctor(data)
+        setDoctor(doctorData)
       } catch (error) {
         console.error('Error fetching doctor:', error)
         toast.error('Failed to load doctor information')
@@ -189,4 +173,3 @@ export default function DoctorProfilePage() {
     </div>
   )
 }
-
