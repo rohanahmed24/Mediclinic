@@ -1,7 +1,7 @@
 "use client";
 
-import { motion, useInView, useAnimation } from "framer-motion";
-import { useRef, useEffect } from "react";
+import { motion, useInView } from "framer-motion";
+import { useRef } from "react";
 import Image from "next/image"
 import CountUp from 'react-countup';
 
@@ -14,8 +14,7 @@ const stats = [
 
 export default function CounterStatsSection() {
   const ref = useRef(null)
-  const isInView = useInView(ref, { once: true, amount: 0.5 })
-  const controls = useAnimation();
+  const isInView = useInView(ref, { once: true })
 
   return (
     <section 
@@ -31,7 +30,7 @@ export default function CounterStatsSection() {
           priority
         />
       </div>
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 relative z-10">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-4">
           {stats.map((stat, index) => (
             <motion.div
@@ -42,12 +41,14 @@ export default function CounterStatsSection() {
               className="text-center"
             >
               <div className="text-4xl md:text-5xl lg:text-6xl font-bold mb-2">
-                <CountUp
-                  end={stat.number}
-                  duration={isInView ? 2 : 0} // Animate when in view, otherwise display immediately
-                  useEasing={isInView} 
-                  separator="," 
-                />
+                {isInView && (
+                  <CountUp
+                    start={0}
+                    end={stat.number}
+                    duration={2}
+                    separator=","
+                  />
+                )}
               </div>
               <div className="text-sm md:text-base lg:text-lg font-light">
                 {stat.label}
@@ -59,4 +60,3 @@ export default function CounterStatsSection() {
     </section>
   )
 }
-
