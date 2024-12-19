@@ -113,7 +113,7 @@ export default function WhoWeArePage() {
               </div>
               <div className="md:w-1/2">
                 <Image
-                  src="/who-we-are/healthy-lifestyle.jpg"
+                  src="/about-us-img-1.jpg"
                   alt="Doctors"
                   width={600}
                   height={400}
