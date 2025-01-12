@@ -100,8 +100,7 @@ export default function HeroSection() {
                 transition={{ delay: 0.4 }}
                 className="text-lg text-gray-200 mb-8"
               >
-                Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex
-                ea commodo consequat duis autem vel eum iriure
+                medical care for all your health needs at one place and time we are here for you 24/7.
               </motion.p>
             </div>
           </div>
@@ -121,7 +120,8 @@ export default function HeroSection() {
               <Phone className="h-8 w-8 text-white mb-6" strokeWidth={1.5} />
               <h3 className="text-2xl font-medium text-white mb-4">Emergency Cases</h3>
               <p className="text-gray-200 text-sm mb-6">
-                Ut wisi enim ad minim veniam, quis laore nostrud exerci tation
+                your health is our top priority. 
+                Call us we are always here for you.
               </p>
               <p className="text-3xl font-medium text-white mt-auto">1-800-400-7400</p>
             </div>
@@ -132,8 +132,8 @@ export default function HeroSection() {
             <Calendar className="h-8 w-8 text-white mb-6" strokeWidth={1.5} />
             <h3 className="text-2xl font-medium text-white mb-4">Doctors Timetable</h3>
             <p className="text-gray-200 text-sm">
-              Duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend 
-              option congue nihil imperdiet molestie consequat, vel legentis in iis qui facit
+              Find the right doctor and book an appointment with ease. Check our doctors' 
+              timetable to schedule your visit at a convenient time for you.
             </p>
           </div>
 

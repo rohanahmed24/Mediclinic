@@ -32,26 +32,26 @@ const itemVariants = {
 
 const blogPosts = [
   {
-    title: "Leading You To Better Health",
-    excerpt: "Ut wisi enim ad minim veniam, quis laore nostrud exerci tation ulm hedi corper turet suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore...",
+    title: "Advances in Minimally Invasive Surgery: What Patients Need to Know",
+    category: "Medical Technology",
+    date: "January 10, 2025",
+    description:
+      "Explore the latest developments in minimally invasive surgical techniques and how they're improving patient recovery times and outcomes.",
     image: "/blog-post-4.jpg",
-    date: "April 12, 2017",
-    category: "Research",
-    likes: 5,
-    comments: 12,
-    author: "By Rachel Thompson"
+    author: "Dr. Sarah Chen",
+    authorRole: "Chief of Surgery",
   },
   {
-    title: "Committed To Communities",
-    excerpt: "Ut wisi enim ad minim veniam, quis laore nostrud exerci tation ulm hedi corper turet suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore...",
+    title: "Understanding Heart Health: Prevention and Early Detection",
+    category: "Cardiology",
+    date: "January 8, 2025",
+    description:
+      "Learn about the latest guidelines for heart disease prevention, risk factors to watch for, and when to seek professional medical advice.",
     image: "/blog-post-6.jpg",
-    date: "April 12, 2017",
-    category: "Research",
-    likes: 3,
-    comments: 4,
-    author: "By Rachel Thompson"
-  }
-]
+    author: "Dr. Michael Roberts",
+    authorRole: "Senior Cardiologist",
+  },
+];
 
 const quotes = [
   {
@@ -80,13 +80,13 @@ export default function BlogPage() {
           />
           <div className="absolute inset-0 bg-black bg-opacity-50" />
           <div className="relative container mx-auto px-4 h-full flex flex-col justify-center items-center text-white">
-            <h1 className="text-4xl md:text-5xl font-bold mb-4">Without Sidebar</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-4">Medical Blog & News</h1>
             <div className="flex items-center space-x-2 text-sm">
               <Link href="/" className="hover:text-[#40C7B9]">Home</Link>
               <ChevronRight className="h-4 w-4" />
-              <Link href="/blog" className="hover:text-[#40C7B9]">Blog</Link>
+              <Link href="/blog" className="hover:text-[#40C7B9]">Medical Blog & News</Link>
               <ChevronRight className="h-4 w-4" />
-              <span>Without Sidebar</span>
+              <span>Medical Blog & News</span>
             </div>
           </div>
         </div>
@@ -120,7 +120,7 @@ export default function BlogPage() {
                       <h2 className="text-3xl font-medium text-gray-900 dark:text-white hover:text-[#40C7B9] dark:hover:text-[#5FE3D3] transition-colors">
                         <Link href="#">{post.title}</Link>
                       </h2>
-                      <p className="text-gray-600 dark:text-gray-300 leading-relaxed">{post.excerpt}</p>
+                      <p className="text-gray-600 dark:text-gray-300 leading-relaxed">{post.description}</p>
                       <div className="flex items-center justify-between pt-4">
                         <Link
                           href="#"
@@ -131,11 +131,11 @@ export default function BlogPage() {
                         <div className="flex items-center space-x-6 text-gray-600 dark:text-gray-400">
                           <div className="flex items-center space-x-2">
                             <Heart className="h-5 w-5" />
-                            <span>{post.likes}</span>
+                            <span>0</span>
                           </div>
                           <div className="flex items-center space-x-2">
                             <MessageCircle className="h-5 w-5" />
-                            <span>{post.comments}</span>
+                            <span>0</span>
                           </div>
                           <Share2 className="h-5 w-5 cursor-pointer hover:text-[#40C7B9] dark:hover:text-[#5FE3D3]" />
                         </div>

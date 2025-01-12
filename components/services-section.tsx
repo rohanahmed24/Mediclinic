@@ -30,32 +30,32 @@ const services = [
   {
     icon: Heart,
     title: "Cardiac Clinic",
-    description: "Lorem ipsum dolor sit amet, cons ectetuer. Proin gravida nibh vel velit auctor aliquet aenean"
+    description: "Comprehensive cardiac care, including diagnostics, treatment, and rehabilitation for heart conditions"
   },
   {
     icon: Truck,
     title: "Emergency Clinic",
-    description: "Lorem ipsum dolor sit amet, cons ectetuer. Proin gravida nibh vel velit auctor aliquet aenean"
-  },
-  {
-    icon: Activity,
-    title: "Precise Diagnosis",
-    description: "Lorem ipsum dolor sit amet, cons ectetuer. Proin gravida nibh vel velit auctor aliquet aenean"
+    description: "Emergency medical services for sudden health issues, including trauma and urgent conditions."
   },
   {
     icon: Stethoscope,
     title: "Primary Care",
-    description: "Lorem ipsum dolor sit amet, cons ectetuer. Proin gravida nibh vel velit auctor aliquet aenean"
+    description: "Comprehensive primary medical care for all health needs, including preventive care, health screenings, and treatment of common illnesses."
   },
   {
     icon: Clock,
     title: "Vascular Surgery",
-    description: "Lorem ipsum dolor sit amet, cons ectetuer. Proin gravida nibh vel velit auctor aliquet aenean"
+    description: "Comprehensive vascular surgery services for the treatment of blood vessels and related conditions."
   },
   {
     icon: Activity,
     title: "General Surgery",
-    description: "Lorem ipsum dolor sit amet, cons ectetuer. Proin gravida nibh vel velit auctor aliquet aenean"
+    description: "Specialized surgery for major medical conditions, including cancer, trauma, and orthopedic procedures."
+  },
+  {
+    icon: Clock,
+    title: "Dental Clinic",
+    description: "Dental care and preventive health programs for a healthy, beautiful smile."
   }
 ]
 

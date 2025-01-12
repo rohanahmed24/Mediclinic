@@ -10,29 +10,29 @@ import SiteFooter from "@/components/site-footer"
 const locations = [
   {
     city: "New York",
-    address: "198 West 21th Street, Suite 721",
-    cityCode: "New York NY 10010",
+    address: "Dhaka, Bangladesh",
+    cityCode: "Dhaka, Bangladesh",
     email: "mediclinic@qodeinteractive.com",
     phone: "(+880) 161 8990 566"
   },
   {
     city: "Amsterdam",
-    address: "1514 Fairmont Avenue, Suite 54",
-    cityCode: "Amsterdam 64723",
+    address: "Dhaka, Bangladesh",
+    cityCode: "Dhaka, Bangladesh",
     email: "mediclinic@qodeinteractive.com",
     phone: "(+880) 161 8990 567"
   },
   {
     city: "London",
-    address: "Green Hill Road, Suite 195",
-    cityCode: "London 75947",
+    address: "Dhaka, Bangladesh",
+    cityCode: "Dhaka, Bangladesh",
     email: "mediclinic@qodeinteractive.com",
     phone: "(+880) 161 8990 568"
   },
   {
     city: "San Francisco",
-    address: "2566 Jim Rosa Lane, Suite 129",
-    cityCode: "San Francisco 94118",
+    address: "Dhaka, Bangladesh",
+    cityCode: "Dhaka, Bangladesh",
     email: "mediclinic@qodeinteractive.com",
     phone: "(+880) 161 8990 569"
   }

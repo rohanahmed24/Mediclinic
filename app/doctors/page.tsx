@@ -32,58 +32,58 @@ const itemVariants = {
 
 const doctors = [
   {
-    name: "Angela Adams",
+    name: "Dr. Angela Adams, MD",
     specialty: "Cardiac Surgery",
-    description: "Ut wisi enim ad minim veniam, quis laore nostrud exerci tation ulm hedi corper turet suscipit lobortis",
+    description: "Board-certified cardiac surgeon with over 15 years of experience in complex heart procedures and minimally invasive surgical techniques.",
     image: "/team-member-1.jpg",
     icon: Scissors,
   },
   {
-    name: "Jordan Kelley",
+    name: "Dr. Jordan Kelley, MD, FACC",
     specialty: "Cardiology",
-    description: "Ut wisi enim ad minim veniam, quis laore nostrud exerci tation ulm hedi corper turet suscipit lobortis",
+    description: "Interventional cardiologist specializing in advanced cardiac care, with expertise in cardiac catheterization and heart disease prevention.",
     image: "/team-member-4.jpg",
     icon: Activity,
   },
   {
-    name: "Nicole Dixon",
+    name: "Dr. Nicole Dixon, MD, FACOG",
     specialty: "Gynecology",
-    description: "Ut wisi enim ad minim veniam, quis laore nostrud exerci tation ulm hedi corper turet suscipit lobortis",
+    description: "Experienced gynecologist focusing on women's health, minimally invasive surgery, and comprehensive reproductive care.",
     image: "/team-member-2.jpg",
     icon: Pill,
   },
   {
-    name: "Steven Elliott",
-    specialty: "Dietetics",
-    description: "Ut wisi enim ad minim veniam, quis laore nostrud exerci tation ulm hedi corper turet suscipit lobortis",
+    name: "Dr. Steven Elliott, RD, PhD",
+    specialty: "Clinical Nutrition",
+    description: "Clinical nutritionist specializing in medical nutrition therapy, metabolic disorders, and personalized dietary interventions.",
     image: "/team-member-3.jpg",
     icon: Apple,
   },
   {
-    name: "Jerry Edwards",
-    specialty: "Dentist",
-    description: "Ut wisi enim ad minim veniam, quis laore nostrud exerci tation ulm hedi corper turet suscipit lobortis",
+    name: "Dr. Jerry Edwards, DDS",
+    specialty: "Dental Surgery",
+    description: "Specialized dental surgeon with expertise in oral surgery, dental implants, and advanced cosmetic dentistry procedures.",
     image: "/team-member-4.jpg",
     icon: Heart,
   },
   {
-    name: "Megan Gardner",
+    name: "Dr. Megan Gardner, MD",
     specialty: "Pulmonology",
-    description: "Ut wisi enim ad minim veniam, quis laore nostrud exerci tation ulm hedi corper turet suscipit lobortis",
+    description: "Pulmonary specialist with expertise in respiratory diseases, sleep disorders, and critical care medicine.",
     image: "/team-member-5.jpg",
     icon: Stethoscope,
   },
   {
-    name: "Donald Williams",
+    name: "Dr. Donald Williams, MD, FAAN",
     specialty: "Neurology",
-    description: "Ut wisi enim ad minim veniam, quis laore nostrud exerci tation ulm hedi corper turet suscipit lobortis",
+    description: "Board-certified neurologist specializing in neurological disorders, stroke treatment, and neurodegenerative diseases.",
     image: "/team-member-6.jpg",
     icon: Brain,
   },
   {
-    name: "Marilyn Hansen",
+    name: "Dr. Marilyn Hansen, MD, FAAP",
     specialty: "Pediatrics",
-    description: "Ut wisi enim ad minim veniam, quis laore nostrud exerci tation ulm hedi corper turet suscipit lobortis",
+    description: "Dedicated pediatrician with extensive experience in child development, preventive care, and treating complex pediatric conditions.",
     image: "/team-member-7.jpg",
     icon: FirstAid,
   }
@@ -105,11 +105,11 @@ export default function DoctorsPage() {
           />
           <div className="absolute inset-0 bg-black bg-opacity-50" />
           <div className="relative container mx-auto px-4 h-full flex flex-col justify-center items-center text-white">
-            <h1 className="text-4xl md:text-5xl font-bold mb-4">Our Doctors</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-4">Our Expert Medical Team</h1>
             <div className="flex items-center space-x-2 text-sm">
               <Link href="/" className="hover:text-[#40C7B9]">Home</Link>
               <ChevronRight className="h-4 w-4" />
-              <span>Our Doctors</span>
+              <span>Our Expert Medical Team</span>
             </div>
           </div>
         </div>
@@ -128,13 +128,13 @@ export default function DoctorsPage() {
                 variants={itemVariants}
                 className="text-3xl md:text-4xl font-medium text-[#333333] dark:text-white mb-4"
               >
-                Our Best Doctors
+                Our Expert Medical Team
               </motion.h2>
               <motion.p 
                 variants={itemVariants}
                 className="text-gray-600 dark:text-gray-300 max-w-3xl mx-auto mb-16"
               >
-                Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo non habent claritatem insitamconsequat duis autem facilisis at vero eros
+                We bring together highly qualified specialists across various medical disciplines, each committed to providing exceptional patient care through expertise, experience, and compassionate service.
               </motion.p>
 
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">

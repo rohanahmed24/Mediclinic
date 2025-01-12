@@ -98,7 +98,7 @@ export default function OurClinicPage() {
               <motion.div variants={itemVariants} className="max-w-3xl mx-auto text-center mb-12">
                 <h2 className="text-3xl font-medium text-[#333333] mb-4">Your Hospital For Life</h2>
                 <p className="text-gray-600 dark:text-gray-300">
-                  Ut wisi enim ad minim veniam, quis laore est usus legentis in iis qui facit eorum nostrud exerci tation ulm hedi corper turet suscipit lobortis nisl ut aliquip ex ea commodo consequat, vel illum dolore eu feugiat nulla facilisis at vero eros.
+                  At MediClinic, we are committed to serving our patients with excellence in health care. Our team of professionals is dedicated to providing personalized care and cutting-edge medical solutions.
                 </p>
               </motion.div>
               <motion.div variants={itemVariants} className="grid md:grid-cols-2 gap-8">
@@ -133,7 +133,7 @@ export default function OurClinicPage() {
               <motion.div variants={itemVariants} className="max-w-3xl mx-auto text-center mb-12">
                 <h2 className="text-3xl font-medium text-[#333333] mb-4">Dedication Beyond Measure</h2>
                 <p className="text-gray-600 dark:text-gray-300">
-                  Ut wisi enim ad minim veniam, quis laore est usus legentis in iis qui facit eorum nostrud exerci tation ulm hedi corper turet suscipit lobortis nisl ut aliquip ex ea commodo consequat, vel illum dolore eu feugiat nulla facilisis at vero eros.
+                  At MediClinic, we are committed to serving our community with compassion and care, delivering personalized health management solutions. Our team of experts is dedicated to providing the best possible care, using the latest medical advancements and a genuine concern for your well-being.
                 </p>
               </motion.div>
               <motion.div variants={itemVariants} className="grid md:grid-cols-3 gap-8">
@@ -204,7 +204,7 @@ export default function OurClinicPage() {
               <motion.div variants={itemVariants} className="max-w-3xl mx-auto text-center mb-12">
                 <h2 className="text-3xl font-medium text-[#333333] mb-4">Partnerships For Health</h2>
                 <p className="text-gray-600 dark:text-gray-300">
-                  Ut wisi enim ad minim veniam, quis laore est usus legentis in iis qui facit eorum nostrud exerci tation ulm hedi corper turet suscipit lobortis nisl ut aliquip ex ea commodo consequat, vel illum dolore eu feugiat nulla facilisis at vero eros.
+                  At MediClinic, we are committed to serving our patients with excellence in health care. Our team of professionals is dedicated to providing personalized care and cutting-edge medical solutions. We are proud to serve our community with compassion and care, delivering personalized health management solutions. Our team of experts is dedicated to providing the best possible care, using the latest medical advancements and a genuine concern for your well-being.
                 </p>
               </motion.div>
               <motion.div variants={itemVariants} className="grid md:grid-cols-2 gap-8">

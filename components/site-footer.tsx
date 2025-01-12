@@ -35,7 +35,7 @@ export default function SiteFooter() {
               <span className="text-2xl font-bold text-white">Clinic</span>
             </Link>
             <p className="text-gray-400 dark:text-gray-300 mb-6">
-              Ut wisi enim ad minim veniam, quis laore nostrud exerci tation ulm hedi corper turet suscipit lobortis augue duis dolore te feugait nulla facilisi mazim placerat
+              Welcome to MediClinic, your trusted healthcare provider. We are dedicated to delivering exceptional medical services with compassion and expertise. Our team of skilled professionals is committed to improving your health and well-being through personalized care and cutting-edge treatments.
             </p>
             <div className="text-gray-400 dark:text-gray-300 space-y-2 mb-6">
               <div className="flex items-center space-x-3">
@@ -129,7 +129,7 @@ export default function SiteFooter() {
         </div>
 
         <div className="border-t border-gray-800 dark:border-gray-700 mt-12 pt-8 text-center text-gray-400 dark:text-gray-300">
-          <p>&copy; 2017 Qode Interactive. All Rights Reserved</p>
+          <p>&copy; 2024 Ace International. All Rights Reserved</p>
         </div>
       </div>
     </footer>

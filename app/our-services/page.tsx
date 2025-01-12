@@ -66,15 +66,15 @@ const healingMethods = [
 const services = [
   {
     title: "Serving People Through Exemplary Health Care",
-    description: "Ut wisi enim ad minim veniam, quis laore est usus legentis in iis qui facit eorum nostrud exerci tation ulm hedi corper turet suscipit lobortis"
+    description: "At MediClinic, we are committed to serving our patients with excellence in health care. Our team of professionals is dedicated to providing personalized care and cutting-edge medical solutions."
   },
   {
     title: "Specialty Medicine with Compassion and Care",
-    description: "Ut wisi enim ad minim veniam, quis laore est usus legentis in iis qui facit eorum nostrud exerci tation ulm hedi corper turet suscipit lobortis"
+    description: "We are proud to serve our community with compassion and care, delivering personalized health management solutions. Our team of experts is dedicated to providing the best possible care, using the latest medical advancements and a genuine concern for your well-being."
   },
   {
     title: "Caring For The Growing Needs Of Community",
-    description: "Ut wisi enim ad minim veniam, quis laore est usus legentis in iis qui facit eorum nostrud exerci tation ulm hedi corper turet suscipit lobortis"
+    description: "At MediClinic, we are committed to serving our patients with excellence in health care. Our team of professionals is dedicated to providing personalized care and cutting-edge medical solutions."
   }
 ]
 
@@ -123,7 +123,7 @@ export default function OurServicesPage() {
                 variants={itemVariants}
                 className="text-gray-600 dark:text-gray-300 max-w-3xl mx-auto mb-16"
               >
-                Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo non habent claritatem insitamconsequat duis autem facilisis at vero eros
+                At MediClinic, we are committed to serving our patients with excellence in health care. Our team of professionals is dedicated to providing personalized care and cutting-edge medical solutions.
               </motion.p>
 
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -160,7 +160,7 @@ export default function OurServicesPage() {
                   In Medicine Practice
                 </h2>
                 <p className="text-gray-600 dark:text-gray-300">
-                  Ut wisi enim ad minim veniam, quis laore est usus legentis in iis qui facit eorum nostrud exerci tation ulm hedi corper turet suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                  At MediClinic, we are committed to serving our patients with excellence in health care. Our team of professionals is dedicated to providing personalized care and cutting-edge medical solutions.
                 </p>
                 <Link
                   href="#"

@@ -11,17 +11,17 @@ import CounterStatsSection from "@/components/counter-stats-section"
 const features = [
   {
     title: "Power To Heal",
-    description: "Ut wisi enim ad minim veniam, quis laore est usus legentis in iis qui facit eorum claritatem Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.",
+    description: "At MediClinic, we believe in the power of innovative healthcare. Our dedicated team of professionals is committed to providing cutting-edge medical solutions and personalized care, ensuring the best possible outcomes for our patients.",
     image: "/who-we-are/who-we-are-img-1.jpg" 
   },
   {
     title: "Powerful Medicine",
-    description: "Ut wisi enim ad minim veniam, quis laore est usus legentis in iis qui facit eorum claritatem Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.",
+    description: "We are committed to delivering cutting-edge medical expertise and personalized care, ensuring the best possible outcomes for our patients.",
     image: "/who-we-are/who-we-are-img-2.jpg" 
   },
   {
     title: "Keeping You Well",
-    description: "Ut wisi enim ad minim veniam, quis laore est usus legentis in iis qui facit eorum claritatem Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.",
+    description: "We are dedicated to providing comprehensive health care services, including preventive care, health screenings, and personalized health management.",
     image: "/who-we-are/who-we-are-img-3.jpg" 
   }
 ]
@@ -29,15 +29,15 @@ const features = [
 const services = [
   {
     title: "Serving People Through Exemplary Health Care",
-    description: "Ut wisi enim ad minim veniam, quis laore est usus legentis in iis qui facit eorum claritatem Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius."
+    description: "At MediClinic, we are committed to serving our patients with excellence in health care. Our team of professionals is dedicated to providing personalized care and cutting-edge medical solutions.",
   },
   {
     title: "Specialty Medicine with Compassion and Care",
-    description: "Ut wisi enim ad minim veniam, quis laore est usus legentis in iis qui facit eorum claritatem Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius."
+    description: "We pride ourselves on delivering compassionate care in our specialty medicine services. Our team of experts provides the highest quality medical care.",
   },
   {
     title: "Caring For The Growing Needs Of Community",
-    description: "Ut wisi enim ad minim veniam, quis laore est usus legentis in iis qui facit eorum claritatem Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius."
+    description: "We are committed to serving our community with compassion and care, delivering personalized health management solutions.",
   }
 ]
 
@@ -104,7 +104,7 @@ export default function WhoWeArePage() {
               <div className="md:w-1/2 mb-8 md:mb-0 md:pr-8">
                 <h2 className="text-3xl md:text-4xl font-medium mb-4">How To Live a<br />Healthy Lifestyle?</h2>
                 <p className="text-gray-600 dark:text-gray-300 mb-6">
-                  Ut wisi enim ad minim veniam, quis laore nostrud exerci tation ulm hedi corper turet suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+                  At MediClinic, we are committed to serving our community with compassion and care, delivering personalized health management solutions. Our team of experts is dedicated to providing the best possible care, using the latest medical advancements and a genuine concern for your well-being.
                 </p>
                 <div className="flex items-center"> 
                   <span className="text-[#40C7B9] font-medium mr-4">Victoria Fernandez</span>
@@ -157,7 +157,7 @@ export default function WhoWeArePage() {
         <section className="py-20 bg-gray-100 dark:bg-gray-800">
           <div className="container mx-auto px-4 text-center">
             <blockquote className="text-xl italic text-gray-700 dark:text-gray-300 mb-8">
-              "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat."
+              "At MediClinic, we're committed to providing exceptional healthcare with compassion and expertise. Our dedicated team of professionals strives to improve the lives of our patients every day, combining cutting-edge medical technology with personalized care. We believe in not just treating illnesses, but in promoting overall wellness and empowering our patients to lead healthier, happier lives."
             </blockquote>
             <div className="flex justify-center space-x-4">
               {['/who-we-are/h10-testimonials-1.png', '/who-we-are/h10-testimonials-2.png', '/who-we-are/h10-testimonials-3.png'].map((image, index) => (
